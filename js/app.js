@@ -38,6 +38,34 @@ let dataList = [
   {
     quote: "I made my move. You make yours",
     image: "id-10.jpg"
+  },
+  {
+    quote: "Hackers. We inherently trust no one, including each other.",
+    image: "id-11.jpg"
+  },
+  {
+    quote: "Life is so much easier when you’re numb.",
+    image: "id-12.jpg"
+  },
+  {
+    quote: "Power belongs to the people who take it.",
+    image: "id-13.jpg"
+  },
+  {
+    quote: "Bonsoir Elliot.",
+    image: "id-14.jpg"
+  },
+  {
+    quote: "You cheated on your wife with seven different women. I’ve got digital proof of all of it.",
+    image: "id-15.jpg"
+  },
+  {
+    quote: "Think about it. What if you could take it down one conglomerate?",
+    image: "id-16.jpg"
+  },
+  {
+    quote: "So I see you’re running Gnome! You know I’m actually on KDE myself.",
+    image: "id-17.jpg"
   }
 ];
 
