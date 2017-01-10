@@ -69,12 +69,13 @@ let dataList = [
   }
 ];
 
-let quoteEl = document.getElementById("quote-body");
-let imageEl = document.getElementById("quote-image");
-let randomQuoteBtnEl = document.getElementById("quote-btn");
+var quoteEl = document.getElementById("quote-body");
+var imageEl = document.getElementById("quote-image");
+var randomQuoteBtnEl = document.getElementById("quote-btn");
+var twitterBtnEl = document.getElementById("quote-tw");
 
 function randomData() {
-  let newData = dataList[index(0, dataList.length - 1)];
+  var newData = dataList[index(0, dataList.length - 1)];
 
   quoteEl.innerHTML = newData.quote;
   imageEl.setAttribute('src', 'img/' + newData.image);
@@ -85,5 +86,9 @@ function randomData() {
 }
 
 randomQuoteBtnEl.addEventListener("click", function(e) {
-    randomData(dataList, quoteEl, imageEl);
+  randomData(dataList, quoteEl, imageEl);
+});
+
+twitterBtnEl.addEventListener("click", function(e) {
+  twitterBtnEl.setAttribute('href', 'https://twitter.com/intent/tweet?text=' + quoteEl.textContent);
 });
